@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="shortcut icon" href="fevicon.png" type="image/x-icon">
+    <title>LPU UMS</title>
+
+</head>
+
+<body>
+    <header class="header" style="background-color: #3369a7;" >
+
+        <section class="flex">
+           <img src="ums.png" alt="" height="50px">
+           <!-- <a href="home.html" class="logo">university Managment System</a> -->
+           <div class="icons">
+              <a href="#home">Home</a>
+              <a href="time table.html">Timetable </a>
+              <a href="exam.html">Examinations</a>
+              <a href="changepas.html">Change Password</a>
+              <a href="login.html">Logout</a>
+           </div>
+  
+  
+        </section>
+     </header>
+  
+     <div class="side-bar">
+  
+        <div id="close-btn">
+           <i class="fas fa-times"></i>
+        </div>
+  
+        <div class="profile">
+           <img src="images/pic-1.jpg" class="image" alt="">
+           <h3 class="name">Yagnesh</h3>
+           <p class="role">student</p>
+           <a href="#" class="btn">view profile</a>
+        </div>
+  
+        <nav class="navbar">
+           <a href="index.html"><i class="fas fa-home"></i><span>home</span></a>
+           
+           <a href="#timetable"><i class="fas fa-graduation-cap"></i><span>Timetable</span></a>
+           <a href="#"><i class="fas fa-chalkboard-user"></i><span>teachers</span></a>
+           
+        </nav>
+  
+     </div>
+  
+    <div class="body">
+        <section class="form-container">
+
+            <form action="" method="post" enctype="multipart/form-data">
+               <h3>Change Password</h3>
+               <p>Old password <span>*</span></p>
+               <input type="email" name="email" placeholder="Enter your old password" required maxlength="50" class="box">
+               <p>New password <span>*</span></p>
+               <input type="password" name="pass" placeholder="Enter your new password" required maxlength="20" class="box">
+               <p>Conform new password <span>*</span></p>
+               <input type="password" name="pass" placeholder="Enter your password again " required maxlength="20" class="box">
+               <input type="submit" value="Change Password" name="submit" class="btn" style="margin-left: 10%; border: none;">
+            </form>
+         
+         </section>
+
+
+
+
+
+
+        <footer class="footer">
+
+            &copy; copyright @ 2022 by <span>UMS LPU</span> | all rights reserved!
+
+        </footer>
+    </div>
+    
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+
+
+</body>
+
+</html>
